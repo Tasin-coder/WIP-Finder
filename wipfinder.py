@@ -60,7 +60,7 @@ print('''
 +-----------------------------------------------+                                                                          
 |#Created By =>>       R00t Dev1l               |                                                                          
 |#Contact: facebook.com/indra.das.123829        |                                                                          
-|#Date Created :     30 November 2020           |                                                                          
+|#Date Created :      2 December 2020           |                                                                          
 |#Join=>> Gray Hat Hackers Community on Facebook|                                                                          
 |#mail=>>indradas4863@gmail.com                 |                                                                          
 |#Note=>> Educational purpose only              |                                                                          
