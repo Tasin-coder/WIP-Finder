@@ -2,7 +2,7 @@ FROM debian:sid
 
 ENV LANG C.UTF-8
 ENV USER root
-ENV HOME /cloudfail
+ENV HOME /WIP-Finder
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update
@@ -15,4 +15,4 @@ WORKDIR $HOME
 
 RUN pip3 install -r requirements.txt
 
-ENTRYPOINT ["python3", "cloudfail.py"]
+ENTRYPOINT ["python3", "wipfinder.py"]
