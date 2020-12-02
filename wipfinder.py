@@ -327,11 +327,28 @@ print_out("Initializing WIP Finder - the date is: " + datestr)
 parser = argparse.ArgumentParser()
 parser.add_argument("-t", "--target", help="target url of website", type=str)
 parser.add_argument("-u", "--update", dest="update", action="store_true", help="update databases")
+parser.add_argument("-u", "--update", dest="update", action="store_true", help="update databases")
 parser.add_argument("-s", "--subdomains", help="name of alternate subdomains list stored in the data directory", type=str)
+parser.set_defaults(tor=False)
 parser.set_defaults(update=False)
 
 args = parser.parse_args()
 
+if args.tor is True:
+    ipcheck_url = 'http://ipinfo.io/ip'
+    socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, '127.0.0.1', 9050)
+    socket.socket = socks.socksocket
+    try:
+        tor_ip = requests.get(ipcheck_url)
+        tor_ip = str(tor_ip.text)
+
+        print_out(Fore.WHITE + Style.BRIGHT + "TOR connection established!")
+        print_out(Fore.WHITE + Style.BRIGHT + "New IP: " + tor_ip)
+
+    except requests.exceptions.RequestException as e:
+        print(e, net_exc)
+        sys.exit(0)
+        
 if args.update is True:
     update()
 
