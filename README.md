@@ -11,6 +11,9 @@ pkg apt install python3
 
 ### Installation Commands =>> 
 ```
+cd WIP-Finder
+```
+```
 pip3 install -r requirements.txt
 ```
 ```
