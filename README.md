@@ -6,10 +6,13 @@ sudo apt-get install python3
 ```
 ## For Termux =>>> 
 ```
-pkg apt install python3
+pkg install python python2 -y
 ```
 
 ### Installation Commands =>> 
+```
+apt install git -y
+```
 ```
 cd WIP-Finder
 ```
@@ -53,7 +56,7 @@ python3 wipfinder.py -t www.target.com -T
 
 ### Fast Installation
 ```
-apt install git python python2 -y && cd WIP-Finder && pip3 install -r requirements.txt && chmod +x wipfinder.py && python3 wipfinder.py
+apt install git python python2 -y && git clone https://github.com/Tasin-coder/WIP-Finder.git && cd WIP-Finder && pip3 install -r requirements.txt && chmod +x wipfinder.py
 ```  
 
 To install tor in this tool use command =>>>   service tor start  
