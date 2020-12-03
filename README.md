@@ -23,13 +23,19 @@ python3 wipfinder.py
 Done!! Now enjoy the tool.....
 
 Commands=>> 
-#For targeting website=> -t   (Example= python3 wipfinder.py -t www.target.com)
+#For targeting website=> -t   
+
+(Example= python3 wipfinder.py -t www.target.com)
 
 
-#For update crimeflare=> -u   (Example= python3 wipfinder.py -u)
+#For update crimeflare=> -u   
+
+(Example= python3 wipfinder.py -u)
 
 
-#For TOR              => -T   (Example= python3 wipfinder.py -t www.target.com -T)
+#For TOR              => -T   
+
+(Example= python3 wipfinder.py -t www.target.com -T)
 
 
 #For subdomain        => -s   
