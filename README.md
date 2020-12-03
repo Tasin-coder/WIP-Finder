@@ -1,6 +1,6 @@
 ##You must have python3 installed in you system.
 To install python3
-##For Linux =>>> sudo apt-get install python3   ##For Termux =>>> apt-get install python3
+##For Linux =>>> sudo apt-get install python3   ##For Termux =>>> pkg apt install python3
 
 
 To install this tool follow this steps =>> 1.pip3 install -r requirements.txt
