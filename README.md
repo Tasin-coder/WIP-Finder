@@ -23,10 +23,11 @@ python3 wipfinder.py
 Done!! Now enjoy the tool.....
 
 Commands=>> 
-            #For targeting website=> -t   (Example= python3 wipfinder.py -t www.target.com)
-            #For update crimeflare=> -u   (Example= python3 wipfinder.py -u)
-            #For TOR              => -T   (Example= python3 wipfinder.py -t www.target.com -T)
-            #For subdomain        => -s   
-            #For help             => -h 
+#For targeting website=> -t   (Example= python3 wipfinder.py -t www.target.com)
+#For update crimeflare=> -u   (Example= python3 wipfinder.py -u)
+#For TOR              => -T   (Example= python3 wipfinder.py -t www.target.com -T)
+#For subdomain        => -s   
+#For help             => -h 
+
 To install tor in this tool use command =>>>   service tor start  
 ## If you dont start tor service the tor command will not used !! 
