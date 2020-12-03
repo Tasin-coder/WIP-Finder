@@ -30,6 +30,10 @@ python3 wipfinder.py
 ```
 apt install git python python2 -y && git clone https://github.com/Tasin-coder/WIP-Finder.git && cd WIP-Finder && pip3 install -r requirements.txt && chmod +x wipfinder.py
 ```  
+### Fast Installation (Linux)
+```
+sudo apt-get install python3 -y && git clone https://github.com/Tasin-coder/WIP-Finder.git && cd WIP-Finder && pip3 install -r requirements.txt && chmod +x wipfinder.py
+```  
 Done!! Now enjoy the tool.....
 
 ### Commands=>> 
