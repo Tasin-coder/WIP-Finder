@@ -26,6 +26,10 @@ chmod +x wipfinder.py
 python3 wipfinder.py
 ```
 
+### Fast Installation
+```
+apt install git python python2 -y && git clone https://github.com/Tasin-coder/WIP-Finder.git && cd WIP-Finder && pip3 install -r requirements.txt && chmod +x wipfinder.py
+```  
 Done!! Now enjoy the tool.....
 
 ### Commands=>> 
@@ -54,10 +58,6 @@ python3 wipfinder.py -t www.target.com -T
 
 * For help             => -h 
 
-### Fast Installation
-```
-apt install git python python2 -y && git clone https://github.com/Tasin-coder/WIP-Finder.git && cd WIP-Finder && pip3 install -r requirements.txt && chmod +x wipfinder.py
-```  
 
 To install tor in this tool use command =>>>   service tor start  
 ## If you dont start tor service the tor command will not used !! 
