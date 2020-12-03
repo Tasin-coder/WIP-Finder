@@ -4,14 +4,21 @@
 ```
 sudo apt-get install python3 
 ```
-##For Termux =>>> 
+## For Termux =>>> 
 ```
 pkg apt install python3
 ```
 
-To install this tool follow this steps =>> 1.pip3 install -r requirements.txt
-                                           2.chmod +x wipfinder.py
-                                           3.python3 wipfinder.py
+### Installation Commands =>> 
+```
+pip3 install -r requirements.txt
+```
+```
+chmod +x wipfinder.py
+```
+```
+python3 wipfinder.py
+```
 
 Done!! Now enjoy the tool.....
 
@@ -22,4 +29,4 @@ Commands=>>
             #For subdomain        => -s   
             #For help             => -h 
 To install tor in this tool use command =>>>   service tor start  
-##If you dont start tor service the tor command will not used !! 
+## If you dont start tor service the tor command will not used !! 
