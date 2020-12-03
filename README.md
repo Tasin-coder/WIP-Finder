@@ -38,9 +38,9 @@ python3 wipfinder.py -u
 ```
 
 * For TOR              => -T   
-
+Example=
 ```
-Example= python3 wipfinder.py -t www.target.com -T
+python3 wipfinder.py -t www.target.com -T
 ```
 
 * For subdomain        => -s   
