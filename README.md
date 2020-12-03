@@ -26,7 +26,7 @@ chmod +x wipfinder.py
 python3 wipfinder.py
 ```
 
-### Fast Installation
+### Fast Installation (Termux)
 ```
 apt install git python python2 -y && git clone https://github.com/Tasin-coder/WIP-Finder.git && cd WIP-Finder && pip3 install -r requirements.txt && chmod +x wipfinder.py
 ```  
